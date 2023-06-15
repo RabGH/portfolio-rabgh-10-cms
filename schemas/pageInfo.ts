@@ -19,7 +19,7 @@ export default defineType({
     }),
     defineField({
       name: 'heroImage',
-      title: 'Image',
+      title: 'Hero Image',
       type: 'image',
       description: 'Main image front page.',
       options: {
