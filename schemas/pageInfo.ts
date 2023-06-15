@@ -54,6 +54,12 @@ export default defineType({
       description: 'Personal address.',
     }),
     defineField({
+      name: 'backgroundInformation',
+      title: 'Background Information',
+      type: 'text',
+      description: 'Your background information.',
+    }),
+    defineField({
       name: 'socials',
       title: 'Socials',
       type: 'array',
