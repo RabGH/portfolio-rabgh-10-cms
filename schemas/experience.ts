@@ -23,8 +23,8 @@ export default defineType({
     defineField({
       name: 'company',
       title: 'Company',
-      type: 'text',
-      description: 'Company description.',
+      type: 'string',
+      description: 'Company name or Project name.',
     }),
     defineField({
       name: 'dateStarted',
