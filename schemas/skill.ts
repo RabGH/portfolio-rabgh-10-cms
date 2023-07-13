@@ -12,11 +12,10 @@ export default defineType({
       description: 'Title of skill.',
     }),
     defineField({
-      name: 'progress',
-      title: 'Progress',
-      type: 'number',
-      description: 'Progress of skill in %.',
-      validation: (Rule) => Rule.min(0).max(100),
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      description: 'Short description of skill.',
     }),
     defineField({
       name: 'image',
